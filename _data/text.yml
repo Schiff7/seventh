@@ -64,13 +64,13 @@ zh: &DEFAULT_ZH
   search_placeholder_text: "Enter your search term..."
   powered_by: "Powered by"
 zh-CN:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_ZH
 zh-HK:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_ZH
 zh-CHS:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_ZH
 zh-CHT:
-  <<: *DEFAULT_EN
+  <<: *DEFAULT_ZH
 
 # German
 # -----------------
