@@ -2,7 +2,7 @@
 title: "Something about Functional Progaming"
 ---
 
-I'm writing a simple crawler using JS and there need to be a name list from which we transfer to urls. Perhaps it likes this: 
+I'm writing a simple crawler using JS and there need to be a name list from which transfer to urls. Perhaps it likes this: 
 
 ```javascript
 const names = [ 'Will Smith', 'Jackie Chan' ];
@@ -47,4 +47,36 @@ namespace(sign) {
 }
 ```
 
+then remove side effect:
 
+```javascript
+class Name {
+  constructor() {
+    this.sign = ' ';
+    this.values = [ 'Will Smith', 'Jackie Chan' ];
+  }
+
+  with(values, sign) {
+    this.values = values;
+    this.sign = sign;
+    return this;
+  }
+
+  namespace(sign) {
+    return new Name(this.values.map(value => value.replace(_sign, sign)), sign);
+  }
+
+  upperCase() {
+    //...to do something
+  }
+
+  //...other method
+}
+
+// ...
+const format_names = new Name().namespace('_').upperCase();
+```
+
+Well, it seems not so bad at my point of view as a new programer.
+
+continue...
