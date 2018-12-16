@@ -1,5 +1,5 @@
 ---
-title: "Something about Functional Progaming"
+title: "Side Effect"
 ---
 
 I'm writing a simple crawler using JS and there need to be a name list from which transfer to urls. Perhaps it likes this: 
