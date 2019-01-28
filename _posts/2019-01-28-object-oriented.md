@@ -45,7 +45,7 @@ const a = new A();
 const b = new A();
 a.bar === b.bar; // false;
 ```
-Javascript通过构造函数来构造新的对象，利用new关键字来执行构造函数来生成新对象的过程来可简单理解为：
+Javascript通过构造函数来构造新的对象，利用new关键字执行构造函数来生成新对象的过程来可简单理解为：
 
 ```javascript
 function _new(constructor, ...params) {
