@@ -1,5 +1,5 @@
 ---
-title: "concrete and"
+title: "Concrete and"
 ---
 
 # Abstractions
